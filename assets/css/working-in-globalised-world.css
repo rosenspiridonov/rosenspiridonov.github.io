@@ -1,0 +1,36 @@
+.hero {
+    background-image: url("../../img/globalized-world/banner.jpg");
+    background-attachment: fixed;
+}
+
+.the-attacks p {
+    font-size: 1.1rem;
+    line-height: 2;
+    letter-spacing: .025em;
+}
+
+.the-attacks {
+    height: 700px;
+    display: flex;
+    padding: 4em 0;
+}
+
+.the-attacks>div {
+    flex: 1;
+}
+
+.the-attacks .content {
+    /* padding: 0 1em 0 9.3em; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4em;
+}
+
+.the-attacks .img {
+    height: 100%;
+    background-image: url("../../img/globalized-world/nafta.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

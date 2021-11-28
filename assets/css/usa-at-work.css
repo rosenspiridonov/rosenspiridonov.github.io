@@ -1,0 +1,41 @@
+.hero {
+  background-image: url("../../img/usa-work/img.jpg");
+  background-attachment: fixed;
+}
+
+.service-industries {
+  height: 600px;
+  display: flex;
+  padding-top: 4em;
+}
+
+.service-industries>div {
+  flex: 1;
+}
+
+.service-industries .content {
+  padding: 3.5em 1.5em 0 6em;
+  background-color: var(--clr-blank);
+}
+
+.service-industries .content * {
+  background-color: var(--clr-blank);
+}
+
+.service-industries .img {
+  height: 100%;
+  background-image: url("../../img/usa-work/bank_worker.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.silicon-valley {
+  margin: 5em 0;
+}
+
+.silicon-valley p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  letter-spacing: .025em;
+}

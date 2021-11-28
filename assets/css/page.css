@@ -1,0 +1,92 @@
+.hero {
+    height: 80vh;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero .container {
+    height: 100%;
+    padding: 3em 0;
+    display: flex;
+    align-items: center;
+}
+
+.hero__content {
+    padding: 2em 1em;
+    background-color: #00000090;
+    width: 50%;
+    color: var(--clr-light);
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+
+.hero__content h1 {
+    margin-bottom: .4em;
+}
+
+.usp__section {
+    padding: 8em 0;
+    text-align: center;
+}
+
+.usp__section h2 {
+    margin-bottom: 2em;
+    font-size: 2rem;
+}
+
+.usp__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.usp__wrapper span {
+    display: inline-block;
+    margin-bottom: 1em;
+    font-size: 2.5rem;
+    color: var(--clr-accent);
+}
+
+.usp__wrapper h3 {
+    font-weight: 600;
+    width: 80%;
+}
+
+.usp__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.accordion__item .title {
+    cursor: pointer;
+    padding: .75em .5em;
+    width: 100%;
+    font-size: 1.4rem;
+    font-weight: 500;
+    border-bottom: 2px solid var(--clr-dark);
+}
+
+.accordion__item .panel {
+    padding: 1.25em .5em;
+    background-color: white;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    border-radius: 0 0 10px 10px;
+    display: none;
+    font-size: 1.2rem;
+}
+
+.accordion__item .title::after {
+    content: '\002B';
+    color: var(--clr-accent);
+    font-weight: bold;
+    float: right;
+    margin-left: .25em;
+}
+
+.accordion__item .title.minus::after {
+    content: "\2212";
+}

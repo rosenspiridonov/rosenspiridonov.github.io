@@ -1,0 +1,33 @@
+.hero {
+  background-image: url("../../img/employment-crisis/looking.jpg");
+  background-attachment: fixed;
+}
+
+.jobs-gone {
+  padding-bottom: 5em;
+}
+
+.jobs-gone p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  letter-spacing: .025em;
+}
+
+.less-work {
+  padding: 3em 0;
+  margin-bottom: 120px;
+}
+
+.less-work p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  letter-spacing: .025em;
+}
+
+.usp__section {
+  padding: 3em 0;
+}
+
+.usp__section h2 {
+  font-size: 3rem;
+}

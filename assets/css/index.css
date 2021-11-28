@@ -1,0 +1,80 @@
+.home-grid {
+    display: grid;
+    height: 100vh;
+
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-columns: repeat(10, 1fr);
+    grid-gap: 8px;
+    background: rgb(255,128,1);
+    background: linear-gradient(90deg, rgba(255,128,1,1) 0%, rgba(3,218,198,1) 100%);
+}
+
+.home-grid .grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    background-color: lightsalmon;
+
+    color: var(--clr-light);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    isolation: isolate;
+}
+
+.home-grid .grid-item::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, .5);
+    opacity: 0;
+    transition: opacity 450ms ease-in-out;
+    z-index: -1;
+}
+
+.home-grid .grid-item h3 {
+    transition: transform 450ms ease-in-out;
+}
+
+.home-grid .grid-item:hover h3 {
+    transform: scale(1.1);
+}
+
+.home-grid .grid-item:hover::after {
+    opacity: 1;
+}
+
+.home-grid .uk-work {
+    grid-row: span 4;
+    grid-column: span 6;
+
+    background-image: url(../../img/home/uk-work.jpg);
+}
+
+.home-grid .usa-work {
+    grid-row: span 3;
+    grid-column: span 4;
+    background-image: url(../../img/home/usa-work.jpg);
+}
+
+.home-grid .employment {
+    grid-row: span 5;
+    grid-column: span 4;
+    background-image: url(../../img/home/crisis.jpg);
+}
+
+.home-grid .globalized-world,
+.home-grid .students {
+    grid-row: span 4;
+    grid-column: span 3;
+}
+
+.home-grid .globalized-world {
+    background-image: url(../../img/home/globalized-world.jpg);
+}
+
+.home-grid .students {
+    background-image: url(../../img/home/students.jpg);
+}

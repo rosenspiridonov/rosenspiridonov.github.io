@@ -1,0 +1,5 @@
+anchor - done
+topics dropdown icon 
+social icons - fixed
+header - dropshadow - done 
++ animations somewhere

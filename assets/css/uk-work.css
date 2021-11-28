@@ -1,0 +1,75 @@
+.hero {
+    background-image: url("/img/uk-work/banner.jpg");
+    background-attachment: fixed;
+}
+
+.globalization-info {
+    text-align: center;
+    margin-bottom: 4em;
+    padding-inline: 4em;
+    line-height: 1.5;
+    font-size: 1.4rem;
+}
+
+.text-in-the-green {
+    padding: 4em 0;
+}
+
+.text-in-the-green .introduction {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    letter-spacing: .025em;
+}
+
+.text-in-the-green .accordion__wrapper {
+    padding-top: 2em;
+}
+
+.dont-make-things {
+    padding: 3em 0;
+}
+
+.dont-make-things p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    letter-spacing: .025em;
+}
+
+.service-industries {
+    height: 700px;
+    display: flex;
+    padding: 4em 0; 
+}
+
+.service-industries > div {
+    flex: 1;
+}
+
+.service-industries .content {
+    padding: 3.5em 1.5em 0 6em;
+    background-color: var(--clr-blank);
+}
+
+.service-industries .content * {
+    background-color: var(--clr-blank);
+}
+
+.service-industries .img {
+    height: 100%;
+    background-image: url("/img/uk-work/food-services.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.overworked {
+    padding: 1em 0 3em 0;
+}
+
+.overworked .content {
+    font-size: 1.1rem;
+}
+
+.overworked .content ul {
+    padding: 1em 2em;
+}

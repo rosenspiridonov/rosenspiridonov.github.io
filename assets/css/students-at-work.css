@@ -1,0 +1,31 @@
+.hero {
+  background-image: url("../../img/students-at-work/students.jpg");
+  background-attachment: fixed;
+}
+
+.globalization-info {
+  text-align: center;
+  margin-bottom: 3em;
+  padding-inline: 4em;
+  line-height: 1.5;
+  font-size: 1.4rem;
+}
+
+.students {
+  padding: 4em 0;
+}
+
+.students p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  letter-spacing: .025em;
+}
+
+.usp__section {
+  padding: 4em 0;
+}
+
+.usp__section h2 {
+  margin-bottom: 0;
+  font-size: 2.5rem;
+}
