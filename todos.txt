@@ -1,5 +1,3 @@
-anchor - done
-topics dropdown icon 
-social icons - fixed
-header - dropshadow - done 
-+ animations somewhere
+Additional info for:
+ - 'Students at work' - how much of them work, etc.
+ - 'Employment crisis'	
