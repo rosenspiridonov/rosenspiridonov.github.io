@@ -29,3 +29,18 @@
   margin-bottom: 0;
   font-size: 2.5rem;
 }
+
+.split {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex: 1;
+}
+
+.split > div {
+  margin-inline: 1em;
+}
+
+.split img {
+  height: 300px;
+}

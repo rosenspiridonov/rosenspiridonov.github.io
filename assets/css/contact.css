@@ -1,3 +1,7 @@
+form {
+    font-family: var(--ff-main) !important;
+}
+
 body {
     background-image: url('../../img/contact/background-img.jpg');
     background-position: center;
