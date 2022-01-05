@@ -44,3 +44,13 @@
 .split img {
   height: 300px;
 }
+
+.usa-students-list {
+  padding-top: .75em;
+  padding-left: 2em;
+  font-size: 1.2rem;
+}
+
+.usa-students-list li {
+  margin-bottom: .25em;
+}

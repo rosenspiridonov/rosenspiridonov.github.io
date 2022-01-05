@@ -34,8 +34,22 @@
   margin: 5em 0;
 }
 
-.silicon-valley p {
+.silicon-valley p,
+.companies-wrapper p {
   font-size: 1.1rem;
   line-height: 1.5;
   letter-spacing: .025em;
+}
+
+.companies-wrapper {
+  padding-bottom: 2em;
+}
+
+.company {
+  margin-bottom: 1em;
+}
+
+.company h3 {
+  margin-bottom: .4em;
+  margin-top: .675em;
 }
