@@ -47,19 +47,19 @@
     grid-row: span 4;
     grid-column: span 6;
 
-    background-image: url(../../img/home/uk-work.jpg);
+    background-image: url("../img/home/uk-work.jpg");
 }
 
 .home-grid .usa-work {
     grid-row: span 3;
     grid-column: span 4;
-    background-image: url(../../img/home/usa-work.jpg);
+    background-image: url("../img/home/usa-work.jpg");
 }
 
 .home-grid .employment {
     grid-row: span 5;
     grid-column: span 4;
-    background-image: url(../../img/home/crisis.jpg);
+    background-image: url("../img/home/crisis.jpg");
 }
 
 .home-grid .globalized-world,
@@ -69,9 +69,9 @@
 }
 
 .home-grid .globalized-world {
-    background-image: url(../../img/home/globalized-world.jpg);
+    background-image: url("../img/home/globalized-world.jpg");
 }
 
 .home-grid .students {
-    background-image: url(../../img/home/students.jpg);
+    background-image: url("../img/home/students.jpg");
 }

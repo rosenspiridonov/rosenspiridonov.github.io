@@ -1,5 +1,5 @@
 .hero {
-    background-image: url("/img/uk-work/banner.jpg");
+    background-image: url("../img/uk-work/banner.jpg");
     background-attachment: fixed;
 }
 

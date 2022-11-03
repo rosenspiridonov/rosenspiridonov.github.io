@@ -3,7 +3,7 @@ form {
 }
 
 body {
-    background-image: url('../../img/contact/background-img.jpg');
+    background-image: url('../img/contact/background-img.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
