@@ -56,7 +56,7 @@
 
 .service-industries .img {
     height: 100%;
-    background-image: url("/img/uk-work/food-services.jpg");
+    background-image: url("../img/uk-work/food-services.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
